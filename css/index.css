@@ -1,0 +1,33 @@
+body{
+min-height: 100vh;
+display: flex;
+font-family: Times New Roman, Times, serif;
+font-size:larger;
+color: rgba(252, 250, 249, 0.852);
+margin: 1rem;
+background-image: url(../Image/kws.jpg);
+background-position: left;
+background-size: cover;
+background-repeat: no-repeat;
+padding: 15px 14px 14px 0;
+  display: inline-block;
+}
+
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 9px;
+  resize: vertical;
+}
+
+
+label {
+  padding: 15px 14px 14px 0;
+  display: inline-block;
+}
+
+
+
+  

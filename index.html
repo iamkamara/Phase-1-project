@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome To Nairobi National park!</title>
+    <link rel="stylesheet" href="css/index.css">
+    li
+</head>
+<body>
+    <div class="booking-form"></div>
+      
+    
+       <form id="booking-form" method="POST" 
+       name="bookingform" id="bookingform">
+                    
+        <div class="Names">
+            <input type="text" name="name" id="name" value="" required />
+            <label for="name" class="form-label">Your name</label>
+        </div>
+
+        <div class="Phone-number">
+            <input type="number" name="phone" id="phone" value="" required />
+            <label for="phone" class="form-label">Phone number</label>
+        </div>
+        <div>
+            <select name="time" id="time" required>
+                <option value="">Time</option>
+                <option name="time" value="9am">9:00 AM</option>
+                <option name="time" value="2pm">2:00 PM</option>
+            </select>
+        </div>
+               
+        <div>
+            <select name="Location" id="Location" required>
+                <option value="">Location</option>
+                <option name="Location" value="Nairobi CBD(Kencom Bus Stage)">Nairobi CBD(Kencom)</option>
+                <option name="Location" value="Ongata Rongai(Maasai Mall)">Ongata Rongai</option>
+            </select>
+        </div>
+    <div>
+        <select name="Price" id="Price" required>
+            <option value="">Price</option>
+            <option name="Price" value="(Adult)">Adult (KES 800)</option>
+            <option name="Price" value="(Child)">Child (KES 400)</option>
+        </select>
+    </div>
+            
+        
+    <div class="number-of-people">
+        <label > Select Number of people</label>
+            <div class="radio-item-list">
+             <span class="radio-item">
+                    <input type="radio" name="number_people" value="2" id="number_people_2" />
+                    <label for="number_people_2">2</label>
+             </span>
+             <span class="radio-item active">
+                    <input type="radio" name="number_people" value="4" id="number_people_4" checked="checked" />
+                    <label for="number_people_4">4</label>
+             </span>
+                <span class="radio-item">
+                    <input type="radio" name="number_people" value="6" id="number_people_6" />
+                    <label for="number_people_6">6</label>
+                </span>
+                <span class="radio-item">
+                    <input type="radio" name="number_people" value="8" id="number_people_8" />
+                    <label for="number_people_8">8</label>
+                </span>
+                <span class="radio-item">
+                    <input type="radio" name="number_people" value="10" id="number_people_10" />
+                    <label for="number_people_10">10</label>
+                </span>
+        <div class="form-submit">
+            <style>
+                
+            </style>
+            <input class="submit" type="submit" value="Submit" />
+            <a href="#" class="verify-booking">Verify your booking info from your phone</a>
+         </div>    
+    </div>
+    
+</body>
+<link rel="stylesheet" href="/js/index.js">
+</html>
